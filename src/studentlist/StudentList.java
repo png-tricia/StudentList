@@ -16,11 +16,14 @@ public class StudentList {
         s2.setName("Peppa Pig");
         Student s3 = new Student();
         s3.setName("Elmo's World");
+        Student s4 = new Student();
+        s4.setName("Bugs Bunny");
 
         // Store student names inside Student[]
         studentList[0] = s1;
         studentList[1] = s2;
         studentList[2] = s3;
+        studentList[3] = s4;
 
         // Display all Student names
         for (Student s : studentList) {
